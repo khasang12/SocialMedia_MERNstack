@@ -1,0 +1,7 @@
+*{
+    margin:0;
+}
+.homeContainer{
+    display: flex;
+    width: 100%;
+}

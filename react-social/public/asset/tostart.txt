@@ -1,0 +1,7 @@
+b1: cài đặt react
+- npx create-react-app (tạo file)
+- yarn start (tạo server)
+b2: xóa các file k cần thiết
+b3: cài đặt material-ui
+- cài đặt core
+- cài đặt icons
