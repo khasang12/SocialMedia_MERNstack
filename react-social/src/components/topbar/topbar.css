@@ -1,10 +1,10 @@
 .topbarContainer{
     height: 50px;
     width: 100%;
-    background-color: cyan;
     display: flex;
     align-items: center;
     position: sticky;
+    background-color:white;
     top:0;
 }
 .topbarLeft{
@@ -29,6 +29,8 @@
     align-items: center;
     padding: auto;
     display: flex;
+    background-color: rgb(169, 223, 233);
+    border-radius: 20px;
 }
 .searchButton{
     margin-left: 10px;
@@ -37,6 +39,7 @@
     border:none !important;
     width: 80%;
     outline: none;
+    background-color: rgb(169, 223, 233);
 }
 .topbarRight{
     flex:4;
@@ -60,26 +63,26 @@
     cursor: pointer;
     display: flex;
     margin: 5px;
-    border: 1px solid black;
     padding: 8px; 
     border-radius: 50px;
-    background-color:gray;
-    color:white;
+    color:black;
 }
 .topbarIconBadge{
     border-radius: 100%;
-    border: 1px solid red;
-    background-color: red;
+    padding: 2px;
+    background-color: rgb(235, 79, 79);
     position: absolute;
     margin-left: 18px;
     font-size: 12px;
     display: flex;
+    color: white;
 }
 .topbarIconsItem:hover {
-    opacity: 0.8;
+    background-color: rgba(226, 216, 216, 0.692);
 }
 .topbarLink:hover{
-    opacity: 0.8;
+    background-color: rgba(226, 216, 216, 0.692);
+    border-radius: 10px;
 }
 .topbarImg{
     margin-left: 20px;

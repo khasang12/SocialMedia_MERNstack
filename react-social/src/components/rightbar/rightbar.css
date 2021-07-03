@@ -1,4 +1,6 @@
 .rightbar{
     flex:2;
     background-color:pink;
+    height: 100vh;
+    padding: 20px;
 }
