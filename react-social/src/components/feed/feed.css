@@ -1,5 +1,7 @@
 .feed{
-    flex:5;
+    flex:6;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.05);
+    padding-left: 250px;
+    padding-right: 330px;
 }

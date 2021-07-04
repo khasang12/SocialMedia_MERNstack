@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     position: sticky;
-    background-color:white;
+    background-color:rgb(218, 122, 122);
+    opacity:1;
     top:0;
 }
 .topbarLeft{

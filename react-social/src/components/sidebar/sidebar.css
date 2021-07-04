@@ -1,11 +1,13 @@
 .sidebar{
     font-weight: bold;
-    flex: 1.5;
+    flex: 2;
     background-color:rgba(0, 0, 0, 0.05);
     height: 100vh;
     padding: 20px;
     overflow-y: scroll;
-    
+    position: fixed;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 ::-webkit-scrollbar{
     width: 10px;
