@@ -14,7 +14,7 @@ export default function Share(){
             <span className="optionShare">
                 <div className="optionShareInfo">
                     <LiveTvIcon htmlColor="tomato" className="optionShareIcon"/>
-                    <div class="optionShareName">Live Video</div>
+                    <div class="optionShareName">Live</div>
                 </div>
                 <div className="optionShareInfo">
                     <PhotoLibraryIcon htmlColor="lightgreen" className="optionShareIcon"/>
@@ -22,7 +22,7 @@ export default function Share(){
                 </div>
                 <div className="optionShareInfo">
                     <MoodIcon htmlColor="gold" className="optionShareIcon"/>
-                    <div class="optionShareName">Feeling/Activity</div>
+                    <div class="optionShareName">Feeling</div>
                 </div>
             </span>
         </div>

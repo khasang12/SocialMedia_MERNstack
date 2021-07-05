@@ -14,7 +14,7 @@ export default function Topbar(){
             </div>
 
             <div className="topbarRight">
-                <span className="topbarLink">Home Page</span>
+                <span className="topbarLink">Home</span>
                 <span className="topbarLink">Timeline</span>
             <img src="/asset/profile/profile3.jpg" alt="profile" className="topbarImg"></img>  
 

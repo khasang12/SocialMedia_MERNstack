@@ -6,8 +6,8 @@
     padding: 20px;
     overflow-y: scroll;
     position: fixed;
-    padding-right: 50px;
-    padding-top: 20px;
+    align-self: flex-start;
+
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -24,6 +24,7 @@
     flex-direction: column;
     margin:0;
     padding:0;
+    margin-right: 30px;
     list-style:none;
     cursor: pointer;
 }
@@ -71,3 +72,8 @@ hr.solid {
     margin-top: 10px;
     display: flex;
 }
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+  }

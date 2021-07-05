@@ -64,3 +64,28 @@ hr.solid {
 .optionShareName{
     margin-top:5px;
 }
+@media only screen and (max-width: 768px){
+    .personalShare{
+        justify-content: space-between;
+    }
+    .shareImg{
+        margin-right: 10px;
+        width: 32px;
+        height: 32px;
+    }
+    .shareInput{
+        width: 32.5vw;
+        height: 10px;
+    }
+    .optionShare{
+        position: relative;
+    }
+    .optionShareInfo{
+        margin: 0 5px 0 5px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .shareInput{
+        width: 80%;
+    }
+}

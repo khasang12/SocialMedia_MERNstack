@@ -6,11 +6,11 @@ export default function Rightbar(){
         <div className="rightbar">
             <div className="rightbarWrapper">Sponsored
                 <div className="rightbarAd">
-                    <img className="rightbarAdImg" src="/asset/nodejs.png"></img>
+                    <img className="rightbarAdImg" alt="rightbarad" src="/asset/nodejs.png"></img>
                     NodeJS for BackEnd
                 </div>
                 <div className="rightbarAd">
-                    <img className="rightbarAdImg" src="/asset/reactjs.jpg"></img>
+                    <img className="rightbarAdImg" alt="rightbarad" src="/asset/reactjs.jpg"></img>
                     ReactJS for FrontEnd
                 </div>
                 <hr class="solid"></hr>
@@ -25,51 +25,51 @@ export default function Rightbar(){
                 <hr class="solid"></hr>
                 <div className="rightbarOnline">Online
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                     <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" src="/asset/nodejs.png"></img>
+                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
                         Fred
                     </div>
                 </div>
