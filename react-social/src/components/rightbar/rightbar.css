@@ -8,6 +8,8 @@
     overflow-y: scroll;
     align-self: flex-end;
     width: 20vw;
+    top: 50px;
+    bottom:0;
 }
 .rightbarAd{
     padding: 10px 0px 10px 0px;
@@ -24,6 +26,9 @@
 .birthdayContainer, .eventContainer{
     display: flex;
     padding-top: 10px;
+}
+.rightbarOnline{
+    margin-bottom: 100px;
 }
 .rightbarOnlineUser{
     padding-top: 20px;

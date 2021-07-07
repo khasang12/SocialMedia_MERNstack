@@ -7,13 +7,17 @@
     flex-direction: column;
     width: 100%;
 }
+.feeds{
+    margin-left:280px;
+}
 @media only screen and (max-width: 768px) {
     .homeContainer{
         width: 100%;
     }
-  }
-  @media only screen and (max-width: 600px){
-      *{
-          font-size: 12px;
-      }
+    .feeds{
+        margin-left:0px;
+    }
+    .feedx{
+        margin: 0!important;
+    }
   }

@@ -1,0 +1,11 @@
+.rightbarOnlineUser{
+    padding-top: 20px;
+    display: flex;
+}
+.rightbarOnlineUserImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding-right: 10px;
+}

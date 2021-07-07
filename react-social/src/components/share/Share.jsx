@@ -5,13 +5,13 @@ import MoodIcon from '@material-ui/icons/Mood';
 export default function Share(){
     return (
         <div className="shareContainer">
-            <span className="personalShare">
-                <img className="shareImg" src="/asset/profile/profile3.jpg" alt="friend"></img>
+            <div className="personalShare">
+                <img className="shareImg" src="/asset/profile/profile3.jpg" alt="mypic"></img>
                 <input className="shareInput" placeholder="What's on your mind, Sang?"></input>
                 <button className="shareButton">Share</button>
-            </span>
-            <hr className="solid"></hr>
-            <span className="optionShare">
+            </div>
+            <hr className="solid"/>
+            <div className="optionShare">
                 <div className="optionShareInfo">
                     <LiveTvIcon htmlColor="tomato" className="optionShareIcon"/>
                     <div class="optionShareName">Live</div>
@@ -24,7 +24,7 @@ export default function Share(){
                     <MoodIcon htmlColor="gold" className="optionShareIcon"/>
                     <div class="optionShareName">Feeling</div>
                 </div>
-            </span>
+            </div>
         </div>
     )
 }

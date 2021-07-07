@@ -45,6 +45,8 @@ hr.solid {
 .optionShare{
     justify-content: space-around;
     display: flex;
+    position: relative;
+    z-index: 100;
 }
 .optionShareInfo{
     display: flex;

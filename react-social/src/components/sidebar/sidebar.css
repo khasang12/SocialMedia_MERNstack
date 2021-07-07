@@ -7,10 +7,9 @@
     overflow-y: scroll;
     position: fixed;
     align-self: flex-start;
-
 }
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 5px;
     border-radius: 5px;
 }
 ::-webkit-scrollbar-track{
@@ -52,6 +51,7 @@ hr.solid {
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 .sidebarFriend{
     display: flex;

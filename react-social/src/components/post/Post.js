@@ -2,16 +2,25 @@ import './post.css'
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import ThumbUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined';
 import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded';
-export default function Post(){
+import {useState} from 'react'
+import {Users} from "../../data.js"
+export default function Post({post}){
+    const user = Users.filter((u)=>{ return u.id === post.userId})
+    const [like,setLike] = useState(post.like)
+    const [isLike,setIsLike] = useState(false)
+    const likeHandler = () =>{
+        setLike(isLike?like-1:like+1)
+        setIsLike(!isLike)
+    }
     return(
         <div className="post">
             <div className="postWrapper">
                 <div className="postTop">
                     <div className="postTopLeft">
-                        <img className="postTopLeftImg" src="/asset/profile/profile1.jpg" alt="friend"></img>
+                        <img className="postTopLeftImg" src={user[0].profilePicture} alt="friend"></img>
                         <div className="postTopLeftProfile">
-                            <span className="postUser">SangKha</span>
-                            <span className="postTime">5 mins ago</span>
+                            <span className="postUser">{user[0].username}</span>
+                            <span className="postTime">{post.date}</span>
                         </div>
                     </div>
                     <div className="postTopRight">
@@ -20,18 +29,18 @@ export default function Post(){
                 </div>
                 <div className="postCenter">
                     <div className="postText">
-                        Heyyy this is my first Post. I'm really exciting !!!!!
+                        {post.desc}
                     </div>
-                    <img className="postImg" src="/asset/profile/profile4.jpg" alt="friend"></img>
+                    <img className="postImg" src={post.photo} alt="friend"></img>
                 </div>
                 <div className="postBottom">
                     <div className="postBottomLeft">
-                        <ThumbUpAltOutlinedIcon htmlColor="blue"/>
+                        <ThumbUpAltOutlinedIcon htmlColor="blue" onClick={likeHandler}/>
                         <FavoriteBorderRoundedIcon htmlColor="red"/>
-                        32
+                        {like}
                     </div>
                     <div className="postBottomRight">
-                        3 Comments
+                        {post.comment} Comments
                     </div>
                 </div>
             </div>

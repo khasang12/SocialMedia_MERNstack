@@ -1,0 +1,74 @@
+.infoContainer{
+    background-color: rgba(0,0,0,0.05);
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+}
+.infoTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.infoList{
+    list-style-type: none;
+    padding:0;
+}
+.infoList li{
+    display: flex;
+    padding: 5px;
+}
+.infoListIcon{
+    margin-right: 5px;
+}
+hr .solid{
+    margin: 20px 5px 20px 5px;
+}
+.infoEventItems{
+    display: flex;
+    margin-top: 20px;
+}
+.infoEventItem{
+    flex: 1;
+    border-radius: 15px;
+    height: 200px;
+    padding: 20px 10px 20px 10px;
+    margin-left: 10px;
+    line-height: 1.5;
+    background-color:white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.infoEventItem:hover{
+    background-color: rgba(226, 216, 216, 0.692);
+}
+.infoEventIcon{
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius:100%;
+    background-color:rgb(38, 110, 219);
+    color: white;
+}
+.infoEventTimeline{
+    font-size: 12px;
+    font-weight: normal;
+}
+@media only screen and (max-width: 768px) {
+    .profileBody{
+        margin: 20px 10px!important;
+    }
+    .profileRight{
+        width: 100%;
+        padding: 0;
+    }
+    .infoTitle{
+        font-size: 15px;
+    }
+    .infoEventTimeline{
+        font-size: 10px;
+    }
+    .feed{
+        width: 100%!important;
+        margin: 20px 0px!important;
+    }
+}

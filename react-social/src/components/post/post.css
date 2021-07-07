@@ -3,6 +3,8 @@
     margin: 20px;
     background-color: white;
     border-radius: 20px;
+    margin-bottom:0;
+
 }
 .postTop{
     display: flex;

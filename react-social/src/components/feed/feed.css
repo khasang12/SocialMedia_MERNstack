@@ -1,9 +1,7 @@
 .feed{
     flex:6;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.05);
-    padding-left: 250px;
-    padding-right: 330px;
+    padding: 40px 330px 0px 250px;
 }
 @media only screen and (max-width: 768px) {
     .feed{

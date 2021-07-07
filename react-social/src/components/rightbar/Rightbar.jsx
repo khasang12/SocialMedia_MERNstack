@@ -1,6 +1,8 @@
 import './rightbar.css'
 import CakeRoundedIcon from '@material-ui/icons/CakeRounded';
 import EventAvailableRoundedIcon from '@material-ui/icons/EventAvailableRounded';
+import Online from '../online/Online'
+import {Users} from "../../data.js"
 export default function Rightbar(){
     return(
         <div className="rightbar">
@@ -23,55 +25,10 @@ export default function Rightbar(){
                     </div>
                 </div>
                 <hr class="solid"></hr>
-                <div className="rightbarOnline">Online
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
-                    <div className="rightbarOnlineUser">
-                        <img className="rightbarOnlineUserImg" alt="rightbarUser" src="/asset/nodejs.png"></img>
-                        Fred
-                    </div>
+                <div className="rightbarOnline">
+                    {Users.map((p)=>(
+                        <Online key={p.id} user={p}/>
+                    ))}
                 </div>
             </div>
         </div>
